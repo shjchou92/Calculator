@@ -1,0 +1,130 @@
+body {
+  background-color: beige;
+  height: 100%;
+}
+
+.frame {
+  background-color: #09203f;
+  border-radius: 40px;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.input {
+  border-style: solid;
+  border-color: #09203f;
+  background-color: grey;
+  border-radius: 20px;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px 0;
+  text-align: right;
+  box-shadow: inset 0 4px 5px;
+}
+
+#number {
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 60px;
+  max-width: 500px;
+  justify-content: right;
+  padding: 0 10px 0 0;
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 0;
+  max-width: 500px;
+  margin: auto;
+}
+
+button {
+  width: 100px;
+  border: 3px;
+  border-radius: 40px;
+  float: left;
+  padding: 20px;
+  margin: 10px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: rgba(105, 105, 105, 1);
+  box-shadow: 0 5px #404040;
+  transition: transform .05s ease-out;
+}
+
+button:hover {
+  background-color: rgba(105, 105, 105, 0.9);
+}
+
+button:active {
+  box-shadow: 0 0 black;
+  transform: translate(0, 5px);
+}
+
+.rows:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#divide {
+  background-color: rgba(255,140,0,1);
+}
+#divide:focus {
+  color: rgba(255,140,0,1);
+  background-color: white;
+  box-shadow: 0 0 black;
+  transform: translate(0, 5px);
+}
+
+#multi {
+  font-size: 30px;
+  background-color: rgba(255,140,0,1);
+}
+#multi:focus {
+  color: rgba(255,140,0,1);
+  background-color: white;
+  box-shadow: 0 0 black;
+  transform: translate(0, 5px);
+}
+
+#minus {
+  font-size: 40px;
+  background-color: rgba(255,140,0,1);
+}
+#minus:focus {
+  color: rgba(255,140,0,1);
+  background-color: white;
+  box-shadow: 0 0 black;
+  transform: translate(0, 5px);
+}
+
+#plus {
+  background-color: rgba(255,140,0,1);
+}
+#plus:focus {
+  color: rgba(255,140,0,1);
+  background-color: white;
+  box-shadow: 0 0 black;
+  transform: translate(0, 5px);
+}
+
+#clear {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: silver;
+}
+#enter {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: silver;
+}
